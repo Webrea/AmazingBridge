@@ -1,6 +1,10 @@
 *{
     padding: 0;
     margin: 0; 
+font: normal 36px 'Cookie', cursive;
+text-align: center;
+align-items: center;
+}
 }
 
 .container1{
@@ -64,7 +68,43 @@
 }   
 
 
+h1{
+    text-decoration: underline;
+    font-size: 80px;
+}
+.headgist{
+    width: 1000px;
+    align-self: center;
+    margin-left: 100px;
+}
+p{
+    font-size: 25px;
 
+}
+.first{
+    font-weight: bold;
+}
+.beam{
+    float: left;
+    margin-left: 100px;
+}
+.beami{
+    height: 200px;
+    width: 300px;
+    margin-right: 50px;
+}
+.arch{
+    float: left;
+    margin-left: 100px;
+}
+.sus{
+    float: left;
+    margin-left: 100px;
+}
+.titl{
+    color: blue;
+    margin-top: -5px;
+}
 
 
 
