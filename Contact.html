@@ -56,8 +56,13 @@
     <div class="row">
         <div class="col-md-2"></div>
             <div class="col-md-3"></div>
+         <script>
+        function sendEmail() {
+            return false;
+        }
+    </script>
                               
-                    <form action="input" >
+                    <form onsubmit="sendEmail(); alert('Thank you for your contribution')">
                         <input  class="inpu" type="text" placeholder="Enter Name">
                         <br>
                         <input  class="inpu" type="text" placeholder="Enter Email">
